@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type='text/css' href="css/font-awesome/4.3.0/css/font-awesome.min.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>FalconServices</title>
+	<link rel="shortcut icon" type="image/png" href="000595-eagle-logo-design-free-logos-03.png">
+</head>
+<body>
+	<div class="container-fluid bg-light">
+		<header>
+			<nav class="navbar navbar-expand-sm bg-dark">
+				<ul class="navbar-nav">
+					<h3>Falcon</h3>
+					<img src="000595-eagle-logo-design-free-logos-03.png" width="70" height="40" />
+					<li class="nav-item"><a class="home nav-link" href="#"><i class="fa fa-home" style="font-size:20px"></i>  Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+				</ul>
+
+
+				<div class="reg btn-group">
+					<a class="btn btn-outline-success" data-toggle="modal" data-target="#SignModal" role="button" style="color: floralwhite;">Sign Up</a>
+					<a class="btn btn-outline-success" data-toggle="modal" data-target="#LogModal" role="button" style="color: floralwhite;">Log-in</a>
+				</div>
+
+				<div id="SignModal" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+
+
+						<div class="modal-content">
+							<div class="modal-header bg-dark">
+								<h4 class="modal-title" style="color: floralwhite;">Sign-Up</h4>
+							</div>
+							<div class="modal-body">
+								<form id="signUp" action="about.html" method="post">
+									<div class="form-group">
+									<label for="firstName">FirstName</label>
+									<input id="firstName" class="form-control" name="firstName" type="text" placeholder="FirstName" />
+								</div>
+								<div class="form-group">
+									<label for="lastName">LastName</label>
+									<input id="lastName" name="lastName" class="form-control" type="text" placeholder="LastName" />
+								</div>
+									<div class="form-group">
+									<label for="email">E-mail</label>
+									<input id="email" name="email" class="form-control" type="email" placeholder="E-mail Address" required/>	
+									</div>									
+									<div class="form-group">
+										<label for="password">Password</label>
+									<input id="password" name="password" class="form-control" type="password" placeholder="Password" required />	
+									</div>
+									<div class="form-group">
+										<label for="reenterPassword">Re-Enter Password</label>
+										<input id="reenterPassword" class="form-control" name="reenterPassword" type="password" placeholder="Re-Enter Password" required />
+									</div>
+									<button type="submit" class="btn btn-outline-success">Sign-Up</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div id="LogModal" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">
+
+
+						<div class="modal-content">
+							<div class="modal-header bg-dark">
+								<h4 class="modal-title" style="color: floralwhite;">Login</h4>
+							</div>
+							<div class="modal-body">
+								<form id="logIn" action="index.html" method="get">
+										<div class="form-group">
+									<label for="email">E-mail</label>
+									<input id="email" name="email" class="form-control" type="email" placeholder="E-mail Address" required/>	
+									</div>									
+									<div class="form-group">
+										<label for="password">Password</label>
+									<input id="password" name="password" class="form-control" type="password" placeholder="Password" required />	
+									</div>
+									<button type="submit" class="btn btn-outline-success">Login</button>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+
+				<div class="reg1 btn-group">
+					<button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown">Contact Us</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="#"><i class="fa fa-phone" style="font-size:15px"></i>  054-175-0705</a>
+						<a class="dropdown-item" href="#"><i class="fa fa-envelope-o" style="font-size:15px"></i>      thommpson19@gmail.com</a>
+					</div>
+				</div>
+
+				<form class="form form-inline" action="/action_php">
+					<input type="text" class="form-control mr-sm-2" placeholder="Search">
+					<button class="btn btn-secondary" type="submit">Submit</button>
+				</form>
+			</nav>
+		</header>
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+				<li data-target="#demo" data-slide-to="3"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="Falcon.jpg" style="width: 100%; height:520px;">
+
+				</div>
+				<div class="carousel-item">
+					<img src="maxresdefault.jpg" style="width: 100%; height:520px;">
+
+				</div>
+				<div class="carousel-item">
+					<img src="BUILDING.jpg" style="width: 100%; height:520px">
+
+				</div>
+				<div class="carousel-item">
+					<img src="pROJECT.jpg" style="width: 100%; height:520px;">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+		<div class="info container-fluid bg-dark">
+			<p>FALCON SERVICES</p>
+			<p>BUILDING YOU BUSINESS ONE STEP AT TIME WITH EXPERT SOLUTIONS</p>
+		</div>
+		
+		<div class="container-fluid bg-light">
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="web1" src="web2.png" style="width:300px; height:300px;" />
+					<h4 class="web">WEB DESIGNING AND HOSTING</h4>
+					<div class="web2">We build websites that you will be proud of! We offer the latest in web technology!!</div>
+				</div>
+				<div class="col-lg-4">
+					<img class="app1" src="webapp2.png" style="width:300px; height:300px;" />
+					<h4 class="app">WEB APPLICATIONS</h4>
+					<div class="app2">We design and develop custom web applications across a broad range of technology platforms of operational excellence.</div>
+				</div>
+				<div class="col-lg-4">
+					<img class="mobile1" src="mobile2.png" style="width:300px; height:300px;" />
+					<h4 class="mobile">MOBILE APP DEVELOPMENT</h4>
+					<div class="mobile2">Get high-performance, profit-attracting and custom mobile apps. Take your app ideas to a new level.</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="consult1" src="consult2.png" style="width:300px; height:300px;" />
+					<h4 class="consult">CUSTOM SOFTWARE SOLUTIONS</h4>
+					<div class="consult2">We provide cutting-edge custom software development services to help make business operations more efficient, collaborative, and manageable.</div>
+				</div>
+				<div class="col-lg-4">
+					<img class="custom1" src="custom2.png" style="width:300px; height:300px;" />
+					<h4 class="custom">CONSULTING</h4>
+					<div class="custom2">We provide consultaion services for businesses and individuals who need our expert advice. You cannot go wrong with us.</div>
+				</div>
+				<div class="col-lg-4">
+					<img class="desktop1" src="desktop2.png" style="width:300px; height:300px;" />
+					<h4 class="desktop">DESKTOP APPLICATIONS</h4>
+					<div class="desktop2">We build exquisite desktop softwares for your business and personal use. Software applications to give your small and medium scale business that needed boost.</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="container-fluid bg-dark">
+	<footer>  
+     	<p>FALCONGhana 2018&copy;.&nbsp&nbspAll rights reserved</p>
+     	 <div class="social">
+    <a href="#" class="btn btn-outline-primary"><i class="fa fa-facebook" style="font-size: 15px"></i></a>
+    <a href="#" class="btn btn-outline-danger"><i class="fa fa-google-plus" style="font-size: 15px"></i></a>
+   </div>
+     </footer>
+     </div>
+
+	</div>
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
